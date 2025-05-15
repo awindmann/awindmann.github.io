@@ -81,8 +81,8 @@ analytics:
 # Site Author
 author:
   name             : "Alexander Windmann"
-  avatar           : "IMG_0225.jpg"
-  bio              : "AI researcher"
+  avatar           : "Profilfoto_groß.jpg"
+  bio              : "AI Safety Researcher"
   location         : "Hamburg, Germany"
   employer         : "Helmut Schmidt University"
   pubmed           : 
@@ -112,7 +112,7 @@ author:
   twitter          : "AlexWindmann"
   vine             :
   weibo            :
-  xing             : "https://www.xing.com/profile/Alexander_Windmann/cv"
+  xing             : "https://www.xing.com/profile/Alexander_Windmann/web_profiles"
   youtube          :
   wikipedia        :
 
