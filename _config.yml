@@ -12,7 +12,7 @@ site_theme               : "default"
 title                    : "Alexander Windmann"
 title_separator          : "-"
 name                     : &name "Alexander Windmann"
-description              : &description "AI researcher at the Helmut Schmidt University in Hamburg"
+description              : &description "Alexander Windmann designs evaluations that show how machine learning models fail under sensor faults and changing operating conditions. Doctoral candidate at Helmut Schmidt University Hamburg."
 url                      : https://awindmann.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "awindmann.github.io"
@@ -22,10 +22,10 @@ repository               : "awindmann.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "Profilfoto_groß.jpg"
+  avatar           : "alexander-windmann.jpg" # 600 px copy of Profilfoto_groß.jpg
   name             : "Alexander Windmann"
-  pronouns         : # example: "she/her"  
-  bio              : "AI Safety Researcher"
+  pronouns         : # example: "she/her"
+  bio              : "AI Safety & Evaluation Researcher"
   location         : "Hamburg, Germany"
   employer         : "Helmut Schmidt University"
   uri              : # URL
@@ -36,7 +36,7 @@ author:
   arxiv            : # URL - Update with the correct link to your profile
   googlescholar    : "https://scholar.google.com/citations?user=6zM4XWIAAAAJ"
   impactstory      : # URL
-  orcid            : "http://orcid.org/0000-0002-6522-4262"
+  orcid            : "https://orcid.org/0000-0002-6522-4262"
   semantic         : # URL
   pubmed           : # URL
   researchgate     : "https://www.researchgate.net/profile/Alexander-Windmann"
@@ -72,7 +72,7 @@ author:
   vine             : # Username
   weibo            : # Username
   wikipedia        : # Username
-  xing             : "Alexander_Windmann"
+  xing             : # "Alexander_Windmann", hidden until the XING profile is updated
   youtube          : # Username
   zhihu            : # Username
 
@@ -119,7 +119,7 @@ staticman:
       options:
         format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 atom_feed:
-  hide                   : false     # change to true to hide the RSS feed in the footer
+  hide                   : true      # change to true to hide the RSS feed in the footer
   path                   : # blank (default) uses feed.xml
 
 
@@ -137,13 +137,17 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 :  # Open Graph/Twitter default site image
+og_image                 : "alexander-windmann.jpg" # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
+  type                   : Person
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
+    - "https://de.linkedin.com/in/alexander-windmann"
+    - "https://github.com/awindmann"
+    - "https://scholar.google.com/citations?user=6zM4XWIAAAAJ"
+    - "https://orcid.org/0000-0002-6522-4262"
 
 
 # Analytics
@@ -185,6 +189,44 @@ exclude:
   - README
   - tmp
   - vendor
+  # Template sample content, kept in the repository but not published
+  - _drafts
+  - _portfolio
+  - _posts
+  - _publications
+  - _talks
+  - _teaching
+  - _pages/archive-layout-with-content.md
+  - _pages/category-archive.html
+  - _pages/collection-archive.html
+  - _pages/cv-json.md
+  - _pages/markdown.md
+  - _pages/non-menu-page.md
+  - _pages/page-archive.html
+  - _pages/portfolio.html
+  - _pages/sitemap.md
+  - _pages/tag-archive.html
+  - _pages/talkmap.html
+  - _pages/talks.html
+  - _pages/teaching.html
+  - _pages/terms.md
+  - _pages/year-archive.html
+  - files/bibtex1.bib
+  - files/paper1.pdf
+  - files/paper2.pdf
+  - files/paper3.pdf
+  - files/slides1.pdf
+  - files/slides2.pdf
+  - files/slides3.pdf
+  - CONTRIBUTING.md
+  - README.md
+  - docker-compose.yaml
+  - markdown_generator
+  - scripts
+  - talkmap
+  - talkmap.ipynb
+  - talkmap.py
+  - talkmap_out.ipynb
 keep_files:
   - .git
   - .svn

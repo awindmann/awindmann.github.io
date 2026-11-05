@@ -7,58 +7,46 @@ redirect_from:
   - /resume
 ---
 
-{% include base_path %}
+## Experience
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+**Senior Scientist for Machine Learning**<br>
+Helmut Schmidt University, Hamburg · 2023–present
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+- Lead our chair's machine learning research group for cyber-physical systems and write grant proposals.
+- Developed [SensorFault-Bench](https://github.com/awindmann/SensorFault-Bench) (NeurIPS 2026), an open-source benchmark for evaluating forecasting robustness under controlled sensor faults.
+- Teach in AI courses and co-supervise doctoral and master's research on time series analysis, computer vision, and LLM applications in engineering.
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+**Research Associate**<br>
+Helmut Schmidt University, Hamburg · 2020–2023
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+- Researched deep learning robustness and condition monitoring for maritime search and rescue vessels in the SmartShip project.
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+**Risk Advisory, Financial Risk**<br>
+Deloitte, Düsseldorf and Cologne · Intern and working student, 2019–2020
+
+- Built an inflation forecasting model in R as an intern, then developed trading algorithms in Python for my master's thesis as a working student.
+
+## Education
+
+**Doctoral studies**<br>
+Helmut Schmidt University, Hamburg · 2020–present<br>
+Dissertation submitted in August 2026. The defense is scheduled for 7 January 2027.
+
+**M.Sc. Mathematics**<br>
+RWTH Aachen University · 2017–2020<br>
+Focus on data science. Master's thesis "Machine Learning in Finance" ([code](https://github.com/awindmann/ml-in-finance-thesis)).
+
+**B.Sc. Mathematics**<br>
+RWTH Aachen University · 2014–2017<br>
+Focus on stochastics.
+
+## Standards and community
+
+- Represent the university in the VDI/VDE-GMA technical committee FA 2.12 and co-draft its guideline VDI/VDE 2670 Blatt 1, which standardizes information about AI models in line with the EU AI Act.
+- Contribute to cross-disciplinary VDI guidance on AI safety and security in technical committee FA 5.12 since April 2026.
+- Co-organize workshops and the ML4CPS conference.
+
+## Skills
+
+- **Tools.** Python, PyTorch, PyTorch Lightning, MLflow, Git, automated testing, and agentic coding with Codex and Claude.
+- **Languages.** German (native), English (fluent).
