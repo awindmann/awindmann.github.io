@@ -12,7 +12,7 @@ redirect_from:
 **Senior Scientist for Machine Learning**<br>
 Helmut Schmidt University, Hamburg · 2023–present
 
-- Lead our chair's machine learning research group for cyber-physical systems and write grant proposals.
+- Lead a machine learning research group for cyber-physical systems and write grant proposals.
 - Developed [SensorFault-Bench](https://github.com/awindmann/SensorFault-Bench) (NeurIPS 2026), an open-source benchmark for evaluating forecasting robustness under controlled sensor faults.
 - Teach in AI courses and co-supervise doctoral and master's research on time series analysis, computer vision, and LLM applications in engineering.
 

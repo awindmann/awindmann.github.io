@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I design evaluations that show how machine learning models fail when sensors break or operating conditions change. I do this work as a doctoral candidate at Helmut Schmidt University in Hamburg, where I lead our chair's machine learning research group for cyber-physical systems.
+I design evaluations that show how machine learning models fail when sensors break or operating conditions change. I do this work as a doctoral candidate at Helmut Schmidt University in Hamburg, where I lead a machine learning research group for cyber-physical systems.
 
 My main project is [SensorFault-Bench](https://github.com/awindmann/SensorFault-Bench), an open-source benchmark that tests how time series forecasting models degrade under controlled sensor faults. [The paper introducing it](https://arxiv.org/abs/2605.10822) was accepted at NeurIPS 2026. I have also co-authored [benchmarks and evaluations](/publications/) for LiDAR sensor contamination, network intrusion detection, virtual sensing, and large language models on engineering tasks.
 
